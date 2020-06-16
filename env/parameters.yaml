@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:boaflash/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:boaflash/pipelineUser:token
+  username: cb-cloud-native-ci-cd-play[bot]
+prow:
+  hmacToken: vault:boaflash/prow:hmacToken
+segmentWriteKey: vault:boaflash:segmentWriteKey
